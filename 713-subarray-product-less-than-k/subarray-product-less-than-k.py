@@ -10,7 +10,7 @@ class Solution:
             p*=nums[r]
 
             while p>=k:
-                p /= nums[l]
+                p //= nums[l]
                 l+=1
             c+= r-l+1
         return c
